@@ -1,0 +1,177 @@
+:root{
+    --main-font: Roboto;
+    --logo-font: Raleway;
+    --header-color: #212121;
+    --text-color: #757575;
+    --text-accent-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --button-hover-color:#188CE8;
+    --button-color: #F5F4FA;
+    --footer-color: #2F303A
+
+}
+
+body{
+    font-family: var(--main-font), sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-color);
+    
+}
+.logo{
+    font-family: var(--logo-font), sans-serif;
+    color: var(--text-accent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.upper-logo{
+    font-family: var(--logo-font), sans-serif;
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-accent{
+    color: var(--accent-color);
+}
+
+.list{
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    list-style: none;
+    }
+
+.nav{
+    font-weight: 500;
+    line-height: 1.15;
+    color: var(--header-color);
+}
+.nav:hover,
+.nav:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+.contact{
+    color: var(--text-color);
+    font-weight: 500;
+    line-height: 1.14;
+}
+.contact:hover,
+.contact:focus{
+    color: var(--accent-color);
+}
+.slogan{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-accent-color);
+}
+button.order {
+    background-color: var(--accent-color);
+    color: var(--text-accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;        
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+button.order:hover,
+button.order:focus {
+    background-color: var(--button-hover-color);
+    color: var(--text-accent-color);
+     
+}
+
+.advantages{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+
+.header-2  {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+.hero{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+
+.hero-description{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.address .link{
+    font-style: normal;
+    color: var(--text-accent-color);
+}
+
+button.filter{
+    background-color: var(--button-color);
+    color: var(--header-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;    
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+button.filter:hover,
+button.filter:focus{
+    background-color: var(--accent-color);
+    color: var(--text-accent-color);
+    cursor: pointer;
+}
+
+.image{
+    width: 370px;
+    height: 294px;}
+
+.project{
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;        
+    letter-spacing: 0.06em;
+    }
+
+.project-class{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height:1.88;
+    letter-spacing: 0.03em;
+    }
+        
+    footer, .banner{
+        background-color: var(--footer-color);
+    }
