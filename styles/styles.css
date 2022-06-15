@@ -135,7 +135,7 @@ button.order:focus {
     color: var(--text-accent-color);
 }
 
-button.filter{
+.list .filter{
     background-color: var(--button-color);
     color: var(--header-color);
     font-weight: 500;
@@ -172,6 +172,19 @@ button.filter:focus{
     letter-spacing: 0.03em;
     }
         
-    footer, .banner{
-        background-color: var(--footer-color);
+footer, .banner{
+    background-color: var(--footer-color);
     }
+
+current{
+    color: var(--accent-color);
+    }
+
+.address .mail-tel{
+    color: rgba(255, 255, 255, 0.6);
+    }
+
+.address .link:hover,
+.address .link:focus{
+    color: var(--accent-color);
+   }
